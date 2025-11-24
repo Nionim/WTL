@@ -47,7 +47,11 @@ ssh_key = ""
 root/
 ├── WindowsToLinux/
 │   └── Ваше барахло и папки
-└── init.py
+├── depends.txt
+├── files.json
+├── init.py
+├── <...>
+└── .env
 ```
 
 <H1 align="center">-==[ Socials ]==-</H1>
