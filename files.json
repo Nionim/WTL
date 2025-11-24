@@ -5,6 +5,8 @@
     ],
     "files": {
         "hyprland/hyprland.conf": "~/.config/hypr/hyprland.conf",
-        "hyprland/colors.conf": "~/.config/hypr/colors.conf"
+        "hyprland/colors.conf": "~/.config/hypr/colors.conf",
+        "waybar/config.jsonc": "/etc/xdg/waybar/config.jsonc",
+        "waybar/style.css": "/etc/xdg/waybar/style.css"
     }
 }

@@ -20,7 +20,8 @@ def getData(key):
     normalized_key = key.replace("\\", "/")
     
     if normalized_key.startswith(main_dir + "/"):
-        normalized_key = normalized_key.replace(main_dir + "/", "").replace("~/", root_dir)
+        normalized_key = normalized_key.replace(main_dir + "/", "")
+        normalized_key = normalized_key.replace("~/", root_dir)
         print(normalized_key)
     
     return data.get("files", {}).get(normalized_key)

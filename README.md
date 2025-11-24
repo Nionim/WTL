@@ -25,10 +25,12 @@
 ```
 {
     "Main-Dir": "WindowsToLinux",
+    "Init-Commands": [
+        "su - Violeet -c \"~/.citory_ulils/waybar_rebooter.sh\""
+    ],
     "files": {
-        "config.pepe": "bya/path/pepe.pepe",
-        "other/pepe.c": "bya/path/pepe.c",
-        "other/pepe.h": "home/music/pepe.c"
+        "hyprland/hyprland.conf": "~/.config/hypr/hyprland.conf",
+        "hyprland/colors.conf": "~/.config/hypr/colors.conf"
     }
 }
 ```
@@ -37,8 +39,11 @@
 
 ```
 ssh_host = ""
+ssh_port = ""
 ssh_user = ""
 ssh_key = ""
+
+main_dir = ""
 ```
 
 <H2 align="center">-==[ Files example ]==-</H2>
