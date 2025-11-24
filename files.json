@@ -1,0 +1,8 @@
+{
+    "Main-Dir": "WindowsToLinux",
+    "files": {
+        "config.pepe": "bya/path/pepe.pepe",
+        "other/pepe.c": "bya/path/pepe.c",
+        "other/pepe.h": "home/music/pepe.c"
+    }
+}
