@@ -21,10 +21,9 @@ def getData(key):
     
     if normalized_key.startswith(main_dir + "/"):
         normalized_key = normalized_key.replace(main_dir + "/", "")
-        normalized_key = normalized_key.replace("~/", root_dir)
+        normalized_key = normalized_key
         print(normalized_key)
-    
-    return data.get("files", {}).get(normalized_key)
+    return data.get("files", {}).get(normalized_key).replace("~/", root_dir)
 
 def getCommands():
     data = readFile(filename)
