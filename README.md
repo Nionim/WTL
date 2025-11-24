@@ -41,6 +41,15 @@ ssh_user = ""
 ssh_key = ""
 ```
 
+<H2 align="center">-==[ Files example ]==-</H2>
+
+```
+root/
+├── WindowsToLinux/
+│   └── Ваше барахло и папки
+└── init.py
+```
+
 <H1 align="center">-==[ Socials ]==-</H1>
 
 <p align="center">
